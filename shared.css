@@ -20,12 +20,20 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: orchid;
+}
+
 img {
   width: 100%;
   height: auto;
 }
 
 .container {
+  text-align: center;
+}
+
+.backwards--container {
   display: flex;
 }
 
@@ -45,4 +53,3 @@ img {
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-
