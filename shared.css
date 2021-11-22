@@ -9,7 +9,7 @@ body {
   position: fixed;
   display: block;
   width: 90%;
-  max-width: 500px;
+  max-width: 1024px;
   top: 50%;
   left: 48%;
   transform: translate(-50%, -50%);
