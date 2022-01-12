@@ -53,3 +53,42 @@ img {
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
 }
+
+input[type=text], select {
+  padding: 2px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: orchid;
+}
+
+input[type=submit] {
+  padding: 2px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+::placeholder {
+  color: orchid;
+  opacity: .5;
+}
+
+#special {
+  margin: 64px;
+  color: white;
+  opacity: 0;
+}
+
+#special:hover {
+  color: red;
+  opacity: .5;
+}
