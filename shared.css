@@ -34,27 +34,42 @@ img {
 }
 
 #container-pic{
-  width: 120px;
-  height: 120px;
+  width: 100%;
+  height: 200px;
   border: 1px solid black;
-  margin-right: 20px;
-  float:left;
+  display: block;
 }
 
 #container-pic.p1 {
-  background-image: url("img/TOTAL\ HELL\ -\ TH0_1\ Cover.jpg");
+  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_1%20Cover.jpg");
 }
 
 #container-pic.p2 {
-  background-image: url("img/TOTAL\ HELL\ -\ TH0_2\ Cover.jpg");
+  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_2%20Cover.jpg");
 }
 
 #container-pic.p3 {
-  background-image: url("img/TOTAL\ HELL\ -\ TH0_3\ Cover.jpg");
+  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_3%20Cover.jpg");
 }
 
 #container-pic.p4 {
-  background-image: url("img/TOTAL\ HELL\ -\ TH0_4\ Cover.jpg");
+  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_4%20Cover.jpg");
+}
+
+#container-pic.p5 {
+  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_5%20Cover.jpg");
+}
+
+#container-pic.p6 {
+  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_6%20Cover.jpg");
+}
+
+#container-pic.p7 {
+  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH1_1%20Cover.jpg");
+}
+
+#container-pic.p8 {
+  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH1_2%20Cover.jpg");
 }
 
 .backwards--container {

@@ -14,18 +14,26 @@
     <!--<div class="container">
         <p>☆</p>
     </div>-->
-    <div class="container" id="container-pic">
-        <p><a href="https://morelightnomore.com/" target="_blank" rel="p1">PLAY</a></p>
-        <p><a href="https://morelightnomore.com/sternnumb" target="_blank" rel="p2">Stern Numb</a></p>
-        <p><a href="https://morelightnomore.com/elanvital" target="_blank" rel="p3">Élan Vital</a></p>
-        <p><a href="media/evaporation_exhibition_publication.pdf" target="_blank" rel="p4">EVAPORATION</a></p>
-        <p><a href="https://vimeo.com/395121129" target="_blank"rel="p5">Exhibition Excerpts</a></p>
-        <p><a href="totalhell" rel="p1">TOTAL HELL</a></p>
-        <p><a href="angelhum" rel="p1">Angel Hum</a></p>
-        <p><a href="https://windowmine.com" target="_blank" rel="p1">window mine</a></p>
-        <p>☆</p>
-        <p><a href="https://www.instagram.com/user37047734/">user37047734</a></p>
-        <p><a href="mailto:contact@henrymacdiarmid.com" target="_blank">contact@henrymacdiarmid.com</a></p>
+    <div class="container">
+        <div id="container-pic">
+            <p><a href="https://morelightnomore.com/" target="_blank" rel="p1">PLAY</a></p>
+            <p><a href="https://morelightnomore.com/sternnumb" target="_blank" rel="p2">Stern Numb</a></p>
+            <p><a href="https://morelightnomore.com/elanvital" target="_blank" rel="p3">Élan Vital</a></p>
+            <p><a href="media/evaporation_exhibition_publication.pdf" target="_blank" rel="p4">EVAPORATION</a></p>
+            <p><a href="https://vimeo.com/395121129" target="_blank"rel="p5">Exhibition Excerpts</a></p>
+            <p><a href="totalhell" rel="p6">TOTAL HELL</a></p>
+            <p><a href="angelhum" rel="p7">Angel Hum</a></p>
+            <p><a href="https://windowmine.com" target="_blank" rel="p8">window mine</a></p>
+            <p>☆</p>
+            <p><a href="https://www.instagram.com/user37047734/">user37047734</a></p>
+            <p><a href="mailto:contact@henrymacdiarmid.com" target="_blank">contact@henrymacdiarmid.com</a></p>
+        </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $("ul a").hover(function() {
+            $("#pic").removeClass().addClass($(this).attr('rel'));
+            });
+    </script>
 </body>
 </html>
