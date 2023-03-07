@@ -34,41 +34,46 @@ img {
 }
 
 #container-pic{
-  width: 50%;
-  height: auto;
   display: block;
+  height: 400px;
+  width: 600px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 #container-pic.p1 {
-  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_1%20Cover.jpg");
+  content: url("https://morelightnomore.com/img/PLAY%201.jpg");
 }
 
 #container-pic.p2 {
-  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_2%20Cover.jpg");
+  content: url("https://morelightnomore.com/img/Stern%20Numb%2007.jpg");
 }
 
 #container-pic.p3 {
-  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_3%20Cover.jpg");
+  content: url("https://morelightnomore.com/img/%C3%89lan%20Vital%2006.jpg");
 }
 
 #container-pic.p4 {
-  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_4%20Cover.jpg");
+  content: url("https://henrymacdiarmid.com/img/evaporation.jpg")
+  height: 600px;
+  width: 400px;
 }
 
 #container-pic.p5 {
-  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_5%20Cover.jpg");
+  content: url("https://henrymacdiarmid.com/img/walkwithmetotheshadowofthesun.jpg");
 }
 
 #container-pic.p6 {
-  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_6%20Cover.jpg");
+  content: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_1%20Cover.jpg");
+  width:400px;
 }
 
 #container-pic.p7 {
-  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH1_1%20Cover.jpg");
+  content: url("https://henrymacdiarmid.com/img/Angel_Hum-ST-2021.jpg");
+  width:400px;
 }
 
 #container-pic.p8 {
-  background-image: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH1_2%20Cover.jpg");
+  content: url("https://windowmine.com/images/window%20mine%20-%20Noah%20Greene%20-%20The%20House%20is%20Shallow%2018.jpg");
 }
 
 .backwards--container {
