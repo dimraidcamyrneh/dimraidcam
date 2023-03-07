@@ -33,6 +33,30 @@ img {
   text-align: center;
 }
 
+#container-pic{
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  margin-right: 20px;
+  float:left;
+}
+
+#container-pic.p1 {
+  background-image: url("img/TOTAL\ HELL\ -\ TH0_1\ Cover.jpg");
+}
+
+#container-pic.p2 {
+  background-image: url("img/TOTAL\ HELL\ -\ TH0_2\ Cover.jpg");
+}
+
+#container-pic.p3 {
+  background-image: url("img/TOTAL\ HELL\ -\ TH0_3\ Cover.jpg");
+}
+
+#container-pic.p4 {
+  background-image: url("img/TOTAL\ HELL\ -\ TH0_4\ Cover.jpg");
+}
+
 .backwards--container {
   display: flex;
 }
