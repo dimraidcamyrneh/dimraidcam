@@ -37,6 +37,7 @@ img {
   display: block;
   height: 400px;
   width: 600px;
+  content: url("https://morelightnomore.com/img/PLAY%201.jpg");
 }
 
 #container-pic.p1 {
@@ -88,12 +89,11 @@ img {
     display: block;
     height: 200px;
     width: 300px;
-    content: url("https://morelightnomore.com/img/PLAY%201.jpg");
     }
 
   #container-pic.p1, #container-pic.p2, #container-pic.p3, #container-pic.p4, #container-pic.p5, 
   #container-pic.p6, #container-pic.p7, #container-pic.p8, #container-pic.p9, #container-pic.p10 {
-    display: none;
+    content: url("https://morelightnomore.com/img/PLAY%201.jpg");
     }
 }
 
