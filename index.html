@@ -16,20 +16,47 @@
     </div>-->
     <div class="container">
         <center><div id="container-pic"></div></center>
-            <p><a href="https://morelightnomore.com/" target="_blank" rel="p1">PLAY</a></p>
-            <p><a href="https://morelightnomore.com/sternnumb" target="_blank" rel="p2">Stern Numb</a></p>
-            <p><a href="https://morelightnomore.com/elanvital" target="_blank" rel="p3">Élan Vital</a></p>
-            <p><a href="media/evaporation_exhibition_publication.pdf" target="_blank" rel="p4">EVAPORATION</a></p>
-            <p><a href="https://vimeo.com/395121129" target="_blank"rel="p5">Exhibition Excerpts</a></p>
-            <p><a href="totalhell" rel="p6">TOTAL HELL</a></p>
-            <p><a href="angelhum" rel="p7">Angel Hum</a></p>
-            <p><a href="https://windowmine.com" target="_blank" rel="p8">window mine</a></p>
-            <p>☆</p>
-            <p><a href="https://www.instagram.com/user37047734/" rel="p9">user37047734</a></p>
-            <p><a href="mailto:contact@henrymacdiarmid.com" target="_blank" rel="p10">contact@henrymacdiarmid.com</a></p>
+        <center><div class="container-slideshow">
+            <img class="mySlides slide-animate-fading" src="https://morelightnomore.com/img/PLAY%201.jpg">
+            <img class="mySlides slide-animate-fading" src="https://morelightnomore.com/img/Stern%20Numb%2007.jpg">
+            <img class="mySlides slide-animate-fading" src="https://morelightnomore.com/img/%C3%89lan%20Vital%2006.jpg">
+            <img class="mySlides slide-animate-fading" src="https://henrymacdiarmid.com/img/evaporation.jpg">
+            <img class="mySlides slide-animate-fading" src="https://henrymacdiarmid.com/img/walkwithmetotheshadowofthesun.jpg">
+            <img class="mySlides slide-animate-fading" src="https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_1%20Cover.jpg" style="width: 250px; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);">
+            <img class="mySlides slide-animate-fading" src="https://henrymacdiarmid.com/img/Angel_Hum-ST-2021.jpg" style="width: 250px">
+            <img class="mySlides slide-animate-fading" src="https://windowmine.com/images/window%20mine%20-%20Noah%20Greene%20-%20The%20House%20is%20Shallow%2018.jpg">
+            <img class="mySlides slide-animate-fading" src="https://morelightnomore.com/img/Stern%20Numb%2036.jpg">
+            <img class="mySlides slide-animate-fading" src="https://henrymacdiarmid.com/img/curtain.jpg">
+        </div></center>
+        <p><a href="https://morelightnomore.com/" target="_blank" rel="p1">PLAY</a></p>
+        <p><a href="https://morelightnomore.com/sternnumb" target="_blank" rel="p2">Stern Numb</a></p>
+        <p><a href="https://morelightnomore.com/elanvital" target="_blank" rel="p3">Élan Vital</a></p>
+        <p><a href="media/evaporation_exhibition_publication.pdf" target="_blank" rel="p4">EVAPORATION</a></p>
+        <p><a href="https://vimeo.com/395121129" target="_blank"rel="p5">Exhibition Excerpts</a></p>
+        <p><a href="totalhell" rel="p6">TOTAL HELL</a></p>
+        <p><a href="angelhum" rel="p7">Angel Hum</a></p>
+        <p><a href="https://windowmine.com" target="_blank" rel="p8">window mine</a></p>
+        <p>☆</p>
+        <p><a href="https://www.instagram.com/user37047734/" rel="p9">user37047734</a></p>
+        <p><a href="mailto:contact@henrymacdiarmid.com" target="_blank" rel="p10">contact@henrymacdiarmid.com</a></p>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
+        var myIndex = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 5000);    
+        }
+
         $("p a").hover(function() {
             $("#container-pic").removeClass().addClass($(this).attr('rel'));
             });

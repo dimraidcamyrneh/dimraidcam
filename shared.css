@@ -8,8 +8,8 @@ body {
   font-size: 12px;
   position: fixed;
   display: block;
-  width: 90%;
-  max-width: 1024px;
+  width: 100%;
+  max-width: 600px;
   top: 50%;
   left: 48%;
   transform: translate(-50%, -50%);
@@ -33,8 +33,11 @@ img {
   text-align: center;
 }
 
+.container-slideshow{
+  display: none;
+}
+
 #container-pic{
-  display: block;
   height: 400px;
   width: 600px;
   content: url("https://morelightnomore.com/img/PLAY%201.jpg");
@@ -81,20 +84,39 @@ img {
 }
 
 #container-pic.p10 {
-  content: url("https://windowmine.com/images/window%20mine%20-%20Noah%20Greene%20-%20The%20House%20is%20Shallow%2018.jpg");
+  content: url("https://henrymacdiarmid.com/img/curtain.jpg");
 }
 
 @media screen and (max-width: 700px) {
-  #container-pic {
-    display: block;
-    height: 200px;
-    width: 300px;
+
+  #container-pic, #container-pic.p1, #container-pic.p2, #container-pic.p3, #container-pic.p4, #container-pic.p5, 
+  #container-pic.p6, #container-pic.p7, #container-pic.p8, #container-pic.p9, #container-pic.p10 {
+    display: none;
     }
 
-  #container-pic.p1, #container-pic.p2, #container-pic.p3, #container-pic.p4, #container-pic.p5, 
-  #container-pic.p6, #container-pic.p7, #container-pic.p8, #container-pic.p9, #container-pic.p10 {
-    content: url("https://morelightnomore.com/img/PLAY%201.jpg");
+    body {
+      color: black;
+      font-family: monospace;
+      font-size: 12px;
+      position: fixed;
+      display: block;
+      width: 100%;
+      max-width: 600px;
     }
+
+  .container-slideshow {
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+
+  .slide-animate-fading {
+    animation:fading 5s infinite;
+  }
+
+  @keyframes fading {
+    0%{opacity:0}50%{opacity:1}100%{opacity:0}
+  }
 }
 
 .backwards--container {
