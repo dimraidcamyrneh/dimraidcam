@@ -91,10 +91,9 @@
     body {
       color: black;
       font-family: monospace;
-      position: fixed;
-      display: block;
-      width: 90%;
       max-width: 800px;
+      margin: auto;
+      width: 90%;
     }
     .row {
       display: block;
