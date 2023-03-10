@@ -97,10 +97,9 @@ img {
       color: black;
       font-family: monospace;
       font-size: 12px;
-      position: fixed;
-      display: block;
-      width: 100%;
       max-width: 600px;
+      margin: auto;
+      width: 90%;
     }
 
   .container-slideshow {
