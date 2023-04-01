@@ -5,13 +5,9 @@
   body {
     color: black;
     font-family: monospace;
-    position: fixed;
-    display: block;
+    margin: auto;
     width: 90%;
     max-width: 800px;
-    top: 50%;
-    left: 48%;
-    transform: translate(-50%, -50%);
   }
   
   h1 {
@@ -89,11 +85,7 @@
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 700px) {
     body {
-      color: black;
-      font-family: monospace;
-      max-width: 800px;
-      margin: auto;
-      width: 90%;
+      max-width: 90%;
     }
     .row {
       display: block;

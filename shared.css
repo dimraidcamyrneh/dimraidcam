@@ -6,13 +6,10 @@ body {
   color: black;
   font-family: monospace;
   font-size: 12px;
-  position: fixed;
-  display: block;
   width: 100%;
   max-width: 600px;
-  top: 50%;
-  left: 48%;
-  transform: translate(-50%, -50%);
+  margin: auto;
+  padding-top: 16px;
 }
 
 a {
@@ -40,49 +37,58 @@ img {
 #container-pic{
   height: 400px;
   width: 600px;
-  content: url("https://morelightnomore.com/img/PLAY%201.jpg");
+  content: url("https://morelightnomore.com/img/Place%20No%20Place%2064.jpg");
 }
 
 #container-pic.p1 {
-  content: url("https://morelightnomore.com/img/PLAY%201.jpg");
+  content: url("https://morelightnomore.com/img/Place%20No%20Place%2064.jpg");
 }
 
 #container-pic.p2 {
-  content: url("https://morelightnomore.com/img/Stern%20Numb%2007.jpg");
+  content: url("https://morelightnomore.com/img/PLAY%201.jpg");
 }
 
 #container-pic.p3 {
-  content: url("https://morelightnomore.com/img/%C3%89lan%20Vital%2006.jpg");
+  content: url("https://morelightnomore.com/img/Stern%20Numb%2007.jpg");
 }
 
 #container-pic.p4 {
-  content: url("https://henrymacdiarmid.com/img/evaporation.jpg");
+  content: url("https://morelightnomore.com/img/%C3%89lan%20Vital%2006.jpg");
 }
 
 #container-pic.p5 {
-  content: url("https://henrymacdiarmid.com/img/walkwithmetotheshadowofthesun.jpg");
+  content: url("https://henrymacdiarmid.com/img/evaporation.jpg");
 }
 
 #container-pic.p6 {
+  content: url("https://henrymacdiarmid.com/img/walkwithmetotheshadowofthesun.jpg");
+}
+
+#container-pic.p7 {
   content: url("https://henrymacdiarmid.com/img/TOTAL%20HELL%20-%20TH0_1%20Cover.jpg");
   width: 400px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
-#container-pic.p7 {
+#container-pic.p8 {
+  content: url("https://henrymacdiarmid.com/img/Washoe%20Valley%20Spring%20Break-Cover.jpg");
+  width: 400px;
+}
+
+#container-pic.p9 {
   content: url("https://henrymacdiarmid.com/img/Angel_Hum-ST-2021.jpg");
   width: 400px;
 }
 
-#container-pic.p8 {
+#container-pic.p10 {
   content: url("https://windowmine.com/images/window%20mine%20-%20Noah%20Greene%20-%20The%20House%20is%20Shallow%2018.jpg");
 }
 
-#container-pic.p9 {
+#container-pic.p11 {
   content: url("https://morelightnomore.com/img/Stern%20Numb%2036.jpg");
 }
 
-#container-pic.p10 {
+#container-pic.p12 {
   content: url("https://henrymacdiarmid.com/img/curtain.jpg");
 }
 
@@ -94,17 +100,11 @@ img {
     }
 
     body {
-      color: black;
-      font-family: monospace;
-      font-size: 12px;
-      max-width: 600px;
-      margin: auto;
-      width: 90%;
+      padding-top: 0px;
     }
 
   .container-slideshow {
     display: block;
-    width: 90%;
     height: auto;
   }
 
